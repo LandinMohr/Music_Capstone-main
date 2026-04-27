@@ -868,7 +868,7 @@ const styles = StyleSheet.create({
     zIndex: 6,
   },
   blurbFill: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     borderRadius: 18,
   },
   blurbContent: {
@@ -936,7 +936,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   blurbStatCardFill: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   blurbStatLabel: {
     color: colors.border,
@@ -972,7 +972,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   blurbYearDropdownButtonGradient: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   blurbYearDropdownButton: {
     minWidth: 156,
@@ -1029,7 +1029,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   blurbYearDropdownOptionGradient: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   blurbYearDropdownOption: {
     minHeight: 42,
@@ -1108,7 +1108,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   songRowGradient: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   songRow: {
     minHeight: 64,
@@ -1193,7 +1193,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   miniCdPlayOverlayFill: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   miniCdPlayIcon: {
     color: colors.text,
@@ -1276,7 +1276,7 @@ const styles = StyleSheet.create({
     position: "relative",
   },
   mainCdControlFill: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   mainCdControlIcon: {
     color: colors.text,

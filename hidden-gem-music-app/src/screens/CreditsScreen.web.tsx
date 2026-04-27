@@ -265,7 +265,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   surfaceFill: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   surfaceContent: {
     padding: 18,

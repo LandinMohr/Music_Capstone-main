@@ -136,10 +136,10 @@ const styles = StyleSheet.create({
     padding: 24,
   },
   overlayGradientWrap: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   overlayGradient: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   modal: {
     width: "100%",

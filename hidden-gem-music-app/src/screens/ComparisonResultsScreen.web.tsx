@@ -1213,7 +1213,7 @@ const styles = StyleSheet.create({
     padding: 0,
   },
   paneFill: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   paneScroll: {
     flex: 1,
@@ -1285,7 +1285,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   paneDropdownButtonGradient: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   paneDropdownButton: {
     minWidth: 156,
@@ -1342,7 +1342,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   paneDropdownOptionGradient: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   paneDropdownOption: {
     minHeight: 42,
@@ -1376,7 +1376,7 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   customFill: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   countrySummarySection: {
     minHeight: 0,
@@ -1843,7 +1843,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   songRowGradient: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   songRow: {
     flexDirection: "row",
@@ -1868,7 +1868,7 @@ const styles = StyleSheet.create({
     overflow: "visible",
   },
   cdCaseBackdropWrap: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     alignItems: "center",
     justifyContent: "center",
   },

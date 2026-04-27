@@ -3,6 +3,7 @@
     "name": "Hidden Gem Music",
     "slug": "hidden-gem-music",
     "scheme": "hiddengemmusic",
+    "sdkVersion": "54.0.0",
     "orientation": "default",
     "platforms": [
       "ios",
