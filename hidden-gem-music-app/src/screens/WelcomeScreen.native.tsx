@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     color: colors.textStrong,
     fontFamily: typefaces.display,
     fontSize: 38,
-    fontWeight: "700",
+    
     textAlign: "center",
     lineHeight: 44,
   },
