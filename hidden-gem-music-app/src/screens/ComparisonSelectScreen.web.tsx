@@ -735,7 +735,7 @@ const styles = StyleSheet.create({
     zIndex: 6,
   },
   blurbFill: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
     borderRadius: 18,
   },
   blurbContent: {
@@ -783,7 +783,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   yearDropdownButtonGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   yearDropdownButton: {
     minWidth: 156,
@@ -843,7 +843,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   yearDropdownOptionGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   yearDropdownOption: {
     minHeight: 42,
@@ -909,7 +909,7 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
   },
   sectionFill: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   sidebarSectionExpanded: {
     flex: 1,
@@ -990,7 +990,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   countryRowGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   countryRow: {
     minHeight: 58,
@@ -1059,7 +1059,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   inlineFilterChipGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   inlineFilterChip: {
     minHeight: 40,
@@ -1108,10 +1108,10 @@ const styles = StyleSheet.create({
     padding: 24,
   },
   overlayGradientWrap: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   overlayGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   modal: {
     width: "100%",

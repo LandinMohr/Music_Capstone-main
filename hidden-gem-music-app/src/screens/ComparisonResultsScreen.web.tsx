@@ -1213,7 +1213,7 @@ const styles = StyleSheet.create({
     padding: 0,
   },
   paneFill: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   paneScroll: {
     flex: 1,
@@ -1285,7 +1285,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   paneDropdownButtonGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   paneDropdownButton: {
     minWidth: 156,
@@ -1342,7 +1342,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   paneDropdownOptionGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   paneDropdownOption: {
     minHeight: 42,
@@ -1376,7 +1376,7 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   customFill: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   countrySummarySection: {
     minHeight: 0,
@@ -1843,7 +1843,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   songRowGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   songRow: {
     flexDirection: "row",
@@ -1868,7 +1868,7 @@ const styles = StyleSheet.create({
     overflow: "visible",
   },
   cdCaseBackdropWrap: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
     alignItems: "center",
     justifyContent: "center",
   },

@@ -190,10 +190,10 @@ const styles = StyleSheet.create({
     padding: 24,
   },
   overlayGradientWrap: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   overlayGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   modal: {
     width: "100%",

@@ -1326,7 +1326,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   headerDropdownButtonGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   headerDropdownButton: {
     minWidth: 156,
@@ -1384,7 +1384,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   headerDropdownOptionGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   headerDropdownOption: {
     minHeight: 42,
@@ -1430,7 +1430,7 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   customFill: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   countrySummarySection: {
     minHeight: 0,
@@ -1626,7 +1626,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   songRowGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   songRow: {
     flexDirection: "row",
@@ -1651,7 +1651,7 @@ const styles = StyleSheet.create({
     overflow: "visible",
   },
   cdCaseBackdropWrap: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -1988,10 +1988,10 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   comparisonModeFooterGradient: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   comparisonModeFooterBaseFill: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   comparisonModeFooterInner: {
     minWidth: 660,

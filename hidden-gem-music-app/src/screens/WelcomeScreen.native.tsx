@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
   },
   modalFill: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
     borderRadius: 22,
   },
   modalContent: {

@@ -466,7 +466,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   sectionFill: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
   },
   sectionContent: {
     padding: 18,
@@ -614,7 +614,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   lineChartGrid: {
-    ...StyleSheet.absoluteFill,
+    position: "absolute" as const, top: 0, left: 0, bottom: 0, right: 0,
     justifyContent: "space-evenly",
     paddingHorizontal: 16,
     paddingVertical: 20,

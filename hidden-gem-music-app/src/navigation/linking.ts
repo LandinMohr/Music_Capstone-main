@@ -56,7 +56,7 @@ export const linking: LinkingOptions<RootStackParamList> = {
 };
 
 export function getInitialNavigationSeed(): NavigationSeed {
-  if (typeof window === "undefined") {
+  if (typeof window === "undefined" || !window.location || !window.location.href) {
     return { route: "welcome" };
   }
 
